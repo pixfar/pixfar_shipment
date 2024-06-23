@@ -113,9 +113,9 @@ fixtures = ["Custom Field"]
 # ---------------
 # Override standard doctype classes
 
-# override_doctype_class = {
-# 	"ToDo": "custom_app.overrides.CustomToDo"
-# }
+override_doctype_class = {
+	"Task": "pixfar_shipment.overrides.SendMailToCustomer"
+}
 
 # Document Events
 # ---------------
